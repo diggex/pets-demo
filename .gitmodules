@@ -1,0 +1,9 @@
+[submodule "pets-api"]
+	path = pets-api
+	url = git@github.com:diggex/pets-api.git
+[submodule "pets-docker"]
+	path = pets-docker
+	url = git@github.com:diggex/pets-docker.git
+[submodule "pets-ui"]
+	path = pets-ui
+	url = git@github.com:diggex/pets-ui.git
