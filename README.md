@@ -8,7 +8,7 @@ npm >= 8.1.2
 ```
 step 1. clone project
 ```bash
-git clone git@github.com:diggex/pets-demo.git --recurse-submodule
+git clone git@github.com:diggex/pets-demo.git --recurse-submodules
 ````
 
 step 2. build docker container 
@@ -17,7 +17,7 @@ cd pets-docker
 sh deploy.sh start
 ```
 
-step 3. install PHP API dependency package.
+step 3. install PHP API dependencies.
 ```
 docker exec -i pets-php /bin/bash -c "composer install"
 ```
