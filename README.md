@@ -8,7 +8,7 @@ npm >= 8.1.2
 ```
 step 1. clone project
 ```bash
-git clone git@github.com:diggex/pets-demo.git
+git clone git@github.com:diggex/pets-demo.git --recurse-submodule
 ````
 
 step 2. build docker container 
